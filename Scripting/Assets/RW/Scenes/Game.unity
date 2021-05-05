@@ -143,8 +143,15 @@ MonoBehaviour:
   horizontalBoundary: 22
   hayBalePrefab: {fileID: 1816934193032080448, guid: 4c2a27dfe4ecb0e4e938bf9084d10ea4,
     type: 3}
-  haySpawnpoint: {fileID: 1700562635}
+  haySpawnpoint: {fileID: 5233456974663517128}
   shootInterval: 0.8
+  modelParent: {fileID: 624438678}
+  blueModelPrefab: {fileID: 5233456973075758890, guid: 5c5170d876533ae43bc2e4b15c8e6f6e,
+    type: 3}
+  yellowModelPrefab: {fileID: 5917108387044516939, guid: 28d1a170d9eea59478aa66152b57f446,
+    type: 3}
+  redModelPrefab: {fileID: 3278733490917006391, guid: 5162234e78cffba45b0498c4775c0be7,
+    type: 3}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,6 +706,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 30, y: -45, z: 0}
+--- !u!4 &624438678 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4397208863869895446, guid: c91d458c12526534eb19d65378204353,
+    type: 3}
+  m_PrefabInstance: {fileID: 5233456974663517127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &747512777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,12 +1028,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1700562635 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1855226494, guid: c91d458c12526534eb19d65378204353,
-    type: 3}
-  m_PrefabInstance: {fileID: 5233456974663517127}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1730240069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1405,6 +1412,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7871421659521400377, guid: c91d458c12526534eb19d65378204353, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c91d458c12526534eb19d65378204353, type: 3}
+--- !u!4 &5233456974663517128 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1855226494, guid: c91d458c12526534eb19d65378204353,
+    type: 3}
+  m_PrefabInstance: {fileID: 5233456974663517127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5282911218545726514 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5282911218545726514, guid: fca26d3bba1898f4396e3c3a760c289e,
