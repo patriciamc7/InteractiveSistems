@@ -16,12 +16,6 @@ public class SheepSpawner : MonoBehaviour
         StartCoroutine(SpawnRoutine());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void SpawnSheep()
     {
         Vector3 randomPosition = sheepSpawnPositions[Random.Range(0,sheepSpawnPositions.Count)].position; // 1
